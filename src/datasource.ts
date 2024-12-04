@@ -206,6 +206,7 @@ export class DataSource extends DataSourceWithBackend<WarpQuery, WarpDataSourceO
     })
 
     wsHeader += "LINEON\n";
+    console.log("wsHeader!!!")
     console.log(wsHeader)
     return wsHeader
   }
