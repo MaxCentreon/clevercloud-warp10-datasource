@@ -255,7 +255,8 @@ export class DataSource extends DataSourceWithBackend<WarpQuery, WarpDataSourceO
         }
       }
     })
-
+    console.log("addDashboardVariables")
+    console.log(wsHeader)
     return wsHeader
   }
 
