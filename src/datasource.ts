@@ -179,7 +179,7 @@ export class DataSource extends DataSourceWithBackend<WarpQuery, WarpDataSourceO
         url: this.path + "/api/v0/exec",
         method: "POST",
         data: query.queryText,
-        headers: [['Accept', "undefined"], ['Content-Type', 'text/plain; charset=UTF-8']],
+        headers: [['Accept', "application/json"], ['Content-Type', 'text/plain; charset=UTF-8']],
         responseType: "json"
       }
     )
